@@ -17,7 +17,7 @@ while (continuar !== "sair"){
     console.log("3- Usuarios Inativos...")
     console.log("Digite Sair caso queira finalizar.")
 
-    continuar = resposta.question("Escolha uma opção! ");
+    continuar = resposta.question("Qual das Alternativas? ");
     
     if(continuar == 1) {
         let Usuarios = users
